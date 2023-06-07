@@ -3,15 +3,19 @@
 This repository will soon contain code for the finished project of fine-tuning LLaMA to improve its Mathematical capabities.
 
 <p align="center">
-    <img src="https://i.imgur.com/1mBa3Nb.png"/>
+    <img src="https://i.imgur.com/6f0ha36.png" height=600/>
 </p>
 
-# Dataset
-For this project, the MATH dataset was formatted for Instruction-tuning to accomodate Alpaca 7B as the starting point for the fine-tuning.
+# LLaMATH 7B
+Hugging Face Repo: 
+[LLaMATH-7b](https://huggingface.co/alpayariyak/LLaMATH-7b)
+
+## Dataset
+For this project, the MATH dataset was formatted for Instruction-tuning to accomodate Alpaca 7B as the starting point for the fine-tuning:
 
 [Instruction-formatted MATH dataset](https://huggingface.co/datasets/alpayariyak/MATH_Instruct_no_input)
 
-# Installation
+## Installation
 
 You can download and import this model into your project using the ```transformers``` library from Hugging Face:
 
