@@ -1,6 +1,15 @@
 # Improving Mathematical Capabilities of Large Language Models
 
-This repository will soon contain code for the finished project of fine-tuning LLaMA to improve its Mathematical capabiities.
+This repository will soon contain code for the finished project of fine-tuning LLaMA to improve its Mathematical capabities.
+
+<p align="center">
+    <img src="https://i.imgur.com/1mBa3Nb.png"/>
+</p>
+
+# Dataset
+For this project, the MATH dataset was formatted for Instruction-tuning to accomodate Alpaca 7B as the starting point for the fine-tuning.
+
+[Instruction-formatted MATH dataset](https://huggingface.co/datasets/alpayariyak/MATH_Instruct_no_input)
 
 # Installation
 
@@ -27,3 +36,4 @@ model = LlamaForCausalLM.from_pretrained(
 ```
 model = PeftModel.from_pretrained(model, 'alpayariyak/MATHLLaMA', torch_dtype=torch.float16, force_download=True)
 ```
+
